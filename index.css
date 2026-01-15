@@ -6,7 +6,9 @@
     --button-dark: #363D49;
     --button-mid: #576176;
     --button-light: #8592AD;
-    --select: #222630;
+    --primary-select: #1C8FA6;
+    --mid-select: #2B313B;
+    --dark-select: #222630;
     --danger: #E45B67;
     --success: #49B594;
 
@@ -19,6 +21,7 @@
     font-family: Sora;
     font-size: var(--size-4);
     box-sizing: border-box;
+    border: none;
 }
 
 /* layout */
@@ -91,4 +94,5 @@ svg.size4 {height: var(--size-4);}
 
 /* buttons */
 .btn {cursor: pointer; width: max-content;}
-.btn.bg-btn-dark:hover {background-color: var(--select);}
+.btn.bg-btn-dark:hover {background-color: var(--mid-select);}
+.btn.bg-primary:hover {background-color: var(--primary-select);}
