@@ -3,7 +3,7 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
   return (
     <div className="pos-rel d-flex flex-row bg-norm justify-between align-center p2 r1">
-      
+
       <a
         className="btn bg-btn-dark color-text p05 r05 g025 nodeco d-flex flex-row align-center justify-center"
         href="https://react.dev"
@@ -16,7 +16,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
+          stroke-width="3"
           stroke-linecap="round"
           stroke-linejoin="round"
           className="size4"
@@ -40,7 +40,7 @@ export default function Header() {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.5}
+          strokeWidth="3"
           stroke="currentColor"
           className="size4"
         >
