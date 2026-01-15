@@ -1,0 +1,94 @@
+:root {
+    --bg-base: #1C2027;
+    --bg: #16181D;
+    --primary: #339FB6;
+    --text: #8592AD;
+    --button-dark: #363D49;
+    --button-mid: #576176;
+    --button-light: #8592AD;
+    --select: #222630;
+    --danger: #E45B67;
+    --success: #49B594;
+
+    --size-1: 48px;
+    --size-2: 32px;
+    --size-3: 20px;
+    --size-4: 16px;
+}
+* {
+    font-family: Sora;
+    font-size: var(--size-4);
+    box-sizing: border-box;
+}
+
+/* layout */
+.d-flex {display: flex;}
+.flex-col {flex-direction: column;}
+.flex-row {flex-direction: row;}
+.justify-center {justify-content: center;}
+.justify-left {justify-content: left;}
+.justify-right {justify-content: right;}
+.justify-start {justify-content: start;}
+.justify-end {justify-content: end;}
+.justify-around {justify-content: space-around;}
+.justify-between {justify-content: space-between;}
+.justidy-evenly {justify-content: space-evenly;}
+.align-center {align-items: center;}
+.align-left {align-items: left;}
+.align-right {align-items: right;}
+.align-start {align-items: start;}
+.align-end {align-items: end;}
+.d-grid {display: grid;}
+.margin0 {margin: 0;}
+.padding0 {padding: 0;}
+.pos-rel {position: relative;}
+.pos-abs {position: absolute;}
+
+/* colors */
+.bg-base {background-color: var(--bg-base);}
+.bg-norm {background-color: var(--bg);}
+.bg-primary {background-color: var(--primary);}
+.bg-btn-light {background-color: var(--button-light);}
+.bg-btn-mid {background-color: var(--button-mid);}
+.bg-btn-dark {background-color: var(--button-dark);}
+.bg-select {background-color: var(--select);}
+.bg-danger {background-color: var(--danger);}
+.bg-success {background-color: var(--success);}
+.color-bg-base {color: var(--bg-base);}
+.color-bg-norm {color: var(--bg);}
+.color-primary {color: var(--primary);}
+.color-text {color: var(--text);}
+.color-danger {color: var(--danger);}
+.color-success {color: var(--success);}
+
+/* padding and stuff */
+.p025 {padding: 0.25rem;}
+.p05 {padding: 0.5rem;}
+.p1 {padding: 1rem;}
+.p2 {padding: 2rem;}
+.p3 {padding: 3rem;}
+.r025 {border-radius: 0.25rem;}
+.r05 {border-radius: 0.5rem;}
+.r1 {border-radius: 1rem;}
+.r2 {border-radius: 2rem;}
+.g025 {gap: 0.25rem;}
+.g05 {gap: 0.5rem;}
+.g1 {gap: 1rem;}
+.g2 {gap: 2rem;}
+
+/* fonts and icons */
+.size1 {font-size: var(--size-1);}
+.size2 {font-size: var(--size-2);}
+.size3 {font-size: var(--size-3);}
+.size4 {font-size: var(--size-4);}
+svg.size1 {height: var(--size-1);}
+svg.size2 {height: var(--size-2);}
+svg.size3 {height: var(--size-3);}
+svg.size4 {height: var(--size-4);}
+
+/* other */
+.nodeco {text-decoration: none;}
+
+/* buttons */
+.btn {cursor: pointer; width: max-content;}
+.btn.bg-btn-dark:hover {background-color: var(--select);}
