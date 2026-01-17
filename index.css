@@ -54,7 +54,9 @@
 .bg-btn-light {background-color: var(--button-light);}
 .bg-btn-mid {background-color: var(--button-mid);}
 .bg-btn-dark {background-color: var(--button-dark);}
-.bg-select {background-color: var(--select);}
+.bg-dark-select {background-color: var(--dark-select);}
+.bg-mid-select {background-color: var(--mid-select);}
+.bg-light-select {background-color: var(--light-select);}
 .bg-danger {background-color: var(--danger);}
 .bg-success {background-color: var(--success);}
 .color-bg-base {color: var(--bg-base);}
@@ -70,6 +72,9 @@
 .p1 {padding: 1rem;}
 .p2 {padding: 2rem;}
 .p3 {padding: 3rem;}
+.m025 {margin: 0.25rem;}
+.m05 {margin: 0.5rem;}
+.m1 {margin: 1rem;}
 .r025 {border-radius: 0.25rem;}
 .r05 {border-radius: 0.5rem;}
 .r1 {border-radius: 1rem;}
@@ -92,9 +97,17 @@ svg.size1 {height: var(--size-1);}
 svg.size2 {height: var(--size-2);}
 svg.size3 {height: var(--size-3);}
 svg.size4 {height: var(--size-4);}
+code,.code {font-family: "JetBrains Mono";}
+.inline-code {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
 /* other */
 .nodeco {text-decoration: none;}
+li {margin-bottom: 0.5rem;}
 
 /* buttons */
 .btn {cursor: pointer; width: max-content;}
