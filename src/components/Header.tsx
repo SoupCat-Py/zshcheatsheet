@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="d-flex flex-row bg-norm align-center p2 r1">
+    <div className="d-flex flex-row bg-norm align-center p1 r1">
       <div className="d-flex flex-row f1 justify-start">
         <a
           className="btn bg-btn-dark color-text p05 r05 g025 nodeco d-flex flex-row align-center justify-center"
