@@ -4,7 +4,7 @@ export default function Header() {
       <div className="d-flex flex-row f1 justify-start">
         <a
           className="btn bg-btn-dark color-text p05 r05 g025 nodeco d-flex flex-row align-center justify-center"
-          href="https://react.dev"
+          href="https://github.com/soupcat-py/codesheet2"
           target="_blank"
         >
           <svg
@@ -57,11 +57,3 @@ export default function Header() {
     </div>
   );
 }
-
-// quick idea
-// make three sections inside the header
-// each one has a flex of 1 (three equal parts)
-// part 1: justify left
-// part 2: justify center
-// part 3: justify right
-// this should center the header while putting the buttons at their respective edges
