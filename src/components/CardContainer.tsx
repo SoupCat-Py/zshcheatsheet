@@ -5,7 +5,6 @@ import styles from "../styles/CardContainer.module.css";
 export default function CardContainer() {
   return (
     <div className={`d-grid g1 ${styles.container}`}>
-
       <Card
         command="mv FILE DESTINATION_PATH"
         description={
@@ -26,7 +25,6 @@ export default function CardContainer() {
           </>
         }
       />
-
     </div>
   );
 }
