@@ -4,7 +4,7 @@ type SnippetProp = {
 
 export default function CodeSnippet({ i }: SnippetProp) {
   return (
-    <span className="code inline-code r05 bg-dark-select color-primary">
+    <span className="code inline-code r05 bg-dark-select color-primary size5">
       {i}
     </span>
   );

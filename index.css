@@ -16,12 +16,14 @@
     --size-2: 32px;
     --size-3: 20px;
     --size-4: 16px;
+    --size-5: 14px;
 }
 * {
     font-family: Sora;
     font-size: var(--size-4);
     box-sizing: border-box;
     border: none;
+    line-height: 1.5rem;
 }
 
 /* layout */
@@ -93,6 +95,7 @@
 .size2 {font-size: var(--size-2);}
 .size3 {font-size: var(--size-3);}
 .size4 {font-size: var(--size-4);}
+.size5 {font-size: var(--size-5);}
 svg.size1 {height: var(--size-1);}
 svg.size2 {height: var(--size-2);}
 svg.size3 {height: var(--size-3);}
