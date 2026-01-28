@@ -1,4 +1,11 @@
-.container {
+.section {
   width: 100%;
   grid-template-columns: 1fr 1fr;
+}
+.subheader {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.subheader.first {
+  margin-top: 0;
 }

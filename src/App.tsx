@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import CardContainer from "./components/CardContainer";
+import BodyContainer from "./components/BodyContainer";
 
 function App() {
   return (
     <div className="d-flex flex-col g2">
       <Header />
-      <CardContainer />
+      <BodyContainer />
     </div>
   );
 }
