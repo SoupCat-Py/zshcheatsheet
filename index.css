@@ -12,7 +12,7 @@
     --danger: #E45B67;
     --success: #49B594;
 
-    --size-1: 48px;
+    --size-1: 40px;
     --size-2: 32px;
     --size-3: 20px;
     --size-4: 16px;
@@ -24,6 +24,9 @@
     box-sizing: border-box;
     border: none;
     line-height: 1.5rem;
+
+    /* debug */
+    /* background-color: rgba(50, 100, 200, 0.1); */
 }
 
 /* layout */
@@ -50,6 +53,7 @@
 .pos-abs {position: absolute;}
 
 /* colors */
+.bg-none {background: none;}
 .bg-base {background-color: var(--bg-base);}
 .bg-norm {background-color: var(--bg);}
 .bg-primary {background-color: var(--primary);}
