@@ -28,7 +28,7 @@ export default function Header() {
 
       <div className="d-flex flex-row f1 justify-center">
         <h1 className="size1 color-text margin0 padding0">
-          Header
+          Common&nbsp;Zshell&nbsp;Commands
         </h1>
       </div>
 
