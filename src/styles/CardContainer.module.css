@@ -1,11 +1,16 @@
+.container {
+  overflow: scroll;
+  padding-bottom: 5rem;
+}
+
 .section {
   width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 .subheader {
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
+  padding: 2rem;
+  padding-top: 5rem;
 }
 .subheader.first {
-  margin-top: 0;
+  padding-top: 0.5rem;
 }
