@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import BodyContainer from "./components/BodyContainer";
-import styles from "./styles/App.module.css"
+import styles from "./styles/App.module.css";
 
 function App() {
   return (
