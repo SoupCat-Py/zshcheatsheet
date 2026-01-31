@@ -28,6 +28,10 @@
     /* debug */
     /* background-color: rgba(50, 100, 200, 0.1) !important; */
 }
+*::selection {
+    color: var(--bg);
+    background: var(--primary);
+}
 
 /* layout */
 .d-flex {display: flex;}
