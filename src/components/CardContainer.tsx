@@ -155,12 +155,14 @@ export default function CardContainer() {
 
       <div className={`d-grid g2 ${styles.section}`}>
         <Card
-          command="mv FILE DESTINATION"
+          command="mv [-n] FILE DESTINATION"
           description={
             <>
               Move <CodeSnippet i="FILE" /> to <CodeSnippet i="DESTINATION" />
               <br />
               Use the same directory in <CodeSnippet i="FILE" /> and <CodeSnippet i="DESTINATION" /> to rename <CodeSnippet i="FILE" />
+              <br />
+              <CodeSnippet i="-n" /> prevents overwriting existing files.
               <br />
               <br />
               Examples: <br />
