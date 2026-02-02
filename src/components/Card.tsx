@@ -7,6 +7,8 @@ type CardProp = {
 };
 
 export default function Card({ command, description }: CardProp) {
+
+  // initialize state
   const [copy_state, set_copy_state] = useState("copy");
 
   // default icon
@@ -51,7 +53,10 @@ export default function Card({ command, description }: CardProp) {
 
   // function to copy to clipboard and also change the icon
   function copy() {
+    // copy the command
     navigator.clipboard.writeText(command);
+
+    // set icon to check and then back to copy after 100ms
     set_copy_state("check");
     setTimeout(() => {
       set_copy_state("copy");
