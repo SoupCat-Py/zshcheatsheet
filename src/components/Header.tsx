@@ -48,8 +48,11 @@ export default function Header() {
     // change button icon
     setDarkMode(!isDarkMode);
     // change :root class
-    root?.classList.add(isDarkMode ? "light" : "dark");
-    root?.classList.remove(isDarkMode ? "dark" : "light");
+    if (isDarkMode) {
+      root?.classList.add("light");
+    } else {
+      root?.classList.remove("light");
+    }
   };
 
   return (
