@@ -1,5 +1,7 @@
 .container {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-color: var(--dark-select) var(--mid-select);
   padding-bottom: 5rem;
 }
 
