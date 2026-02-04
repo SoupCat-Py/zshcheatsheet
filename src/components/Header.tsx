@@ -47,12 +47,24 @@ export default function Header() {
   const toggleIcon = () => {
     // change button icon
     setDarkMode(!isDarkMode);
+
+    // set transition
+    document.documentElement.style.setProperty(
+      "--transition",
+      "color 1s ease, background-color 1s ease",
+    );
+
     // change :root class
     if (isDarkMode) {
       root?.classList.add("light");
     } else {
       root?.classList.remove("light");
     }
+
+    // reset transition after 1s
+    setTimeout(() => {
+      document.documentElement.style.setProperty("--transition", "none");
+    }, 1000);
   };
 
   return (
