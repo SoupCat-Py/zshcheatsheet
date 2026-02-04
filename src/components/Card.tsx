@@ -20,7 +20,7 @@ export default function Card({ command, description }: CardProp) {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size3 color-btn-mid"
+        className={`size3 color-btn-mid ${styles.svg_norm}`}
       >
         <path
           strokeLinecap="round"
