@@ -1,0 +1,16 @@
+.github::after {
+  content: "GitHub Repo";
+  font-size: var(--size4);
+}
+
+@media (max-width: 950px) {
+  .github::after {
+    content: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .header {
+    font-size: 4vw;
+  }
+}

@@ -5,7 +5,9 @@ import styles from "../styles/BodyContainer.module.css";
 export default function BodyContainer() {
   return (
     <div className={`d-grid g1 ${styles.container}`}>
-      <Aside />
+      <div className={styles.aside}>
+        <Aside />
+      </div>
       <CardContainer />
     </div>
   );

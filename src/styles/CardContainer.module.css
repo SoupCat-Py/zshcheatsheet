@@ -16,3 +16,9 @@
 .subheader.first {
   padding-top: 1rem;
 }
+
+@media (max-width: 940px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}
