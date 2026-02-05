@@ -112,7 +112,7 @@ export default function CardContainer() {
         />
       </div>
 
-      <hr className={styles.hr}></hr>
+      <hr className={styles.hr} />
 
       <h2
         className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
@@ -145,6 +145,8 @@ export default function CardContainer() {
           }
         />
       </div>
+
+      <hr className={styles.hr} />
 
       <h2
         className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
@@ -213,6 +215,8 @@ export default function CardContainer() {
         />
       </div>
 
+      <hr className={styles.hr} />
+
       <h2
         className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
         id="section4"
@@ -251,6 +255,8 @@ export default function CardContainer() {
           }
         />
       </div>
+
+      <hr className={styles.hr} />
 
       <h2
         className={`size2 color-primary margin0 padding0 ${styles.subheader}`}

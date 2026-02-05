@@ -4,17 +4,22 @@
   scrollbar-color: var(--dark-select) var(--mid-select);
   padding-bottom: 5rem;
 }
-
 .section {
   width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 .subheader {
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .subheader.first {
   padding-top: 1rem;
+}
+.hr {
+  width: 90%;
+  margin-top: 3rem;
+  border: 2px solid var(--mid-select);
+  border-radius: 1rem;
 }
 
 @media (max-width: 940px) {
