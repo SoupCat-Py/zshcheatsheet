@@ -92,6 +92,7 @@ export default function Header() {
       <div className="d-flex flex-row f1 justify-start">
         <a
           className={`btn bg-btn-dark color-text p05 r05 g025 size4 nodeco d-flex flex-row align-center justify-center ${styles.github}`}
+          aria-label="visit the GitHub repository"
           href="https://github.com/soupcat-py/codesheet2"
           target="_blank"
         >
@@ -108,6 +109,7 @@ export default function Header() {
       <div className="d-flex flex-row f1 justify-end">
         <button
           className={`btn bg-btn-dark color-text p05 r05 g025 d-flex flex-row align-center justify-center ${styles.toggle}`}
+          aria-label="toggle dark mode"
           onClick={toggleIcon}
         >
           {isDarkMode ? sun : moon}

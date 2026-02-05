@@ -72,6 +72,7 @@ export default function Card({ command, description }: CardProp) {
         </div>
         <button
           className={`btn bg-none size4 d-flex justify-center align-center ${styles.copy_button}`}
+          aria-label="copy this command"
           onClick={copy}
         >
           {copy_state === "copy" ? copy_norm : copy_check}
