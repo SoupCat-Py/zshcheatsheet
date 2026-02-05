@@ -22,3 +22,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 490px) {
+  .subheader {
+    text-align: center;
+    line-height: 3rem;
+  }
+}
