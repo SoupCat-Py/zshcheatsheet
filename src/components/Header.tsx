@@ -71,7 +71,7 @@ export default function Header() {
     // set transition
     document.documentElement.style.setProperty(
       "--transition",
-      "color 1s ease, background-color 1s ease",
+      "color 1s ease, background-color 1s ease, border-color 1s ease",
     );
 
     // change :root class
