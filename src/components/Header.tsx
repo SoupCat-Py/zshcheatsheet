@@ -101,7 +101,7 @@ export default function Header() {
       </div>
 
       <div className="d-flex flex-row f5 justify-center">
-        <h1 className={`size1 color-text margin0 padding0 ${styles.header}`}>
+        <h1 className={`size1 color-text m0 p0 ${styles.header}`}>
           Common&nbsp;Zshell&nbsp;Commands
         </h1>
       </div>

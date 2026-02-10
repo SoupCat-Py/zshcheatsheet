@@ -65,7 +65,7 @@ export default function Card({ command, description }: CardProp) {
 
   return (
     <div className="d-flex flex-col bg-norm border r1 p1 g1">
-      <h3 className="d-flex flex-row bg-dark-select color-primary size3 margin0 p05 r05 code align-center justify-between">
+      <h3 className="d-flex flex-row bg-dark-select color-primary size3 m0 p05 r05 code align-center justify-between">
         <div className="d-flex flex-row">
           <span className="color-success size3">$&nbsp;&nbsp;</span>
           <span className="color-primary size3">{command}</span>

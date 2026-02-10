@@ -6,7 +6,7 @@ export default function CardContainer() {
   return (
     <section className={`d-flex flex-col d1 r1 ${styles.container}`}>
       <h2
-        className={`size2 color-primary margin0 padding0 ${styles.subheader} ${styles.first}`}
+        className={`size2 color-primary m0 p0 ${styles.subheader} ${styles.first}`}
         id="section1"
       >
         Navigate & Display
@@ -115,7 +115,7 @@ export default function CardContainer() {
       <hr className={styles.hr} />
 
       <h2
-        className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
+        className={`size2 color-primary m0 p0 ${styles.subheader}`}
         id="section2"
       >
         Dir & File Creation
@@ -149,7 +149,7 @@ export default function CardContainer() {
       <hr className={styles.hr} />
 
       <h2
-        className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
+        className={`size2 color-primary m0 p0 ${styles.subheader}`}
         id="section3"
       >
         Move, Copy, Delete
@@ -218,7 +218,7 @@ export default function CardContainer() {
       <hr className={styles.hr} />
 
       <h2
-        className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
+        className={`size2 color-primary m0 p0 ${styles.subheader}`}
         id="section4"
       >
         Combining Commands
@@ -259,7 +259,7 @@ export default function CardContainer() {
       <hr className={styles.hr} />
 
       <h2
-        className={`size2 color-primary margin0 padding0 ${styles.subheader}`}
+        className={`size2 color-primary m0 p0 ${styles.subheader}`}
         id="section5"
       >
         Miscellaneous
