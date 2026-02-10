@@ -26,7 +26,7 @@ const AsideLink = ({ section, label }: asideLinkProp) => {
 
 export default function Aside() {
   return (
-    <div className="d-flex flex-col bg-norm r1 p2 g1">
+    <div className="d-flex flex-col bg-norm border r1 p2 g1">
       <h3 className="h3 color-primary size3 padding0 margin0">Sections</h3>
       <div className="d-flex flex-col bg-norm g05">
         <AsideLink section="1" label="Navigate & Display" />

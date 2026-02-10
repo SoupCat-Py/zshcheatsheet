@@ -9,6 +9,7 @@
     --primary-select: #1C8FA6;
     --mid-select: #292e38;
     --dark-select: #222630;
+    --border: #252832;
     --danger: #E45B67;
     --success: #49B594;
 
@@ -141,6 +142,7 @@ code,.code {font-family: "JetBrains Mono";}
 /* other */
 .nodeco {text-decoration: none;}
 li {margin-bottom: 0.5rem;}
+.border {border: 1px solid var(--border);}
 
 /* buttons */
 .btn {cursor: pointer; width: max-content;}
