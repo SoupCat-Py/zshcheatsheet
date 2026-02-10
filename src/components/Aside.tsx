@@ -13,28 +13,30 @@ const AsideLink = ({ section, label }: asideLinkProp) => {
   const toggleHovered = () => setHovered(!isHovered);
 
   return (
-    <a
-      className={`size4 ${!isHovered ? "color-text nodeco" : "color-primary"}`}
-      href={`#section${section}`}
-      onMouseEnter={toggleHovered}
-      onMouseLeave={toggleHovered}
-    >
-      {label}
-    </a>
+    <li>
+      <a
+        className={`size4 ${!isHovered ? "color-text nodeco" : "color-primary"}`}
+        href={`#section${section}`}
+        onMouseEnter={toggleHovered}
+        onMouseLeave={toggleHovered}
+      >
+        {label}
+      </a>
+    </li>
   );
 };
 
 export default function Aside() {
   return (
-    <div className="d-flex flex-col bg-norm border r1 p2 g1">
+    <div className="d-flex flex-col bg-norm border r1 p2 g05">
       <h3 className="h3 color-primary size3 padding0 margin0">Sections</h3>
-      <div className="d-flex flex-col bg-norm g05">
+      <ul className="d-flex flex-col bg-norm margin0 g05 p1">
         <AsideLink section="1" label="Navigate & Display" />
         <AsideLink section="2" label="Dir & File Creation" />
         <AsideLink section="3" label="Move, Copy, Delete" />
         <AsideLink section="4" label="Combining Commands" />
         <AsideLink section="5" label="Miscellaneous" />
-      </div>
+      </ul>
     </div>
   );
 }
