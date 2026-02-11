@@ -68,7 +68,7 @@ export default function Card({ command, description }: CardProp) {
       <h3 className="d-flex flex-row bg-dark-select color-primary size3 m0 p05 r05 code align-center justify-between">
         <div className="d-flex flex-row">
           <span className="color-success size3">$&nbsp;&nbsp;</span>
-          <span className="color-primary size3">{command}</span>
+          <code className="color-primary size3">{command}</code>
         </div>
         <button
           className={`btn bg-none size4 d-flex justify-center align-center ${styles.copy_button}`}
