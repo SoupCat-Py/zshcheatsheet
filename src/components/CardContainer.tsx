@@ -7,7 +7,7 @@ export default function CardContainer() {
     <section className={`d-flex flex-col d1 r1 ${styles.container}`}>
       <h2
         className={`size2 color-primary m0 p0 ${styles.subheader} ${styles.first}`}
-        id="section1"
+        id="navigate-display"
       >
         Navigate & Display
       </h2>
@@ -116,7 +116,7 @@ export default function CardContainer() {
 
       <h2
         className={`size2 color-primary m0 p0 ${styles.subheader}`}
-        id="section2"
+        id="dir-file-creation"
       >
         Dir & File Creation
       </h2>
@@ -150,7 +150,7 @@ export default function CardContainer() {
 
       <h2
         className={`size2 color-primary m0 p0 ${styles.subheader}`}
-        id="section3"
+        id="move-copy-delete"
       >
         Move, Copy, Delete
       </h2>
@@ -219,7 +219,7 @@ export default function CardContainer() {
 
       <h2
         className={`size2 color-primary m0 p0 ${styles.subheader}`}
-        id="section4"
+        id="combining-commands"
       >
         Combining Commands
       </h2>
@@ -260,7 +260,7 @@ export default function CardContainer() {
 
       <h2
         className={`size2 color-primary m0 p0 ${styles.subheader}`}
-        id="section5"
+        id="miscellaneous"
       >
         Miscellaneous
       </h2>
