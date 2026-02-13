@@ -101,7 +101,7 @@ export default function Header() {
 
       <div className="d-flex flex-row justify-center align-center g-1">
         <a
-          className={`btn bg-none color-text p05 r05 g025 size4 nodeco d-flex flex-row align-center justify-center ${styles.button}`}
+          className={`btn bg-none color-text p05 r05 g025 nodeco d-flex flex-row align-center justify-center ${styles.button}`}
           aria-label="visit the GitHub repository"
           href="https://github.com/soupcat-py/codesheet2"
           target="_blank"

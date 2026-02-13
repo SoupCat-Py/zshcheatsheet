@@ -9,8 +9,8 @@
   background: var(--button-dark);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 720px) {
   .header {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 }
