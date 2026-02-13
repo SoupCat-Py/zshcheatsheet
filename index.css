@@ -138,7 +138,13 @@ code,.code {font-family: "JetBrains Mono";}
 
 /* other */
 .nodeco {text-decoration: none;}
-li::marker {color: var(--text);}
+li::marker {content: none;}
+li:hover::after {
+    content: "›";
+    color: var(--primary);
+    position: absolute;
+    transform: translateX(4px);
+}
 .border {border: 1px solid var(--border);}
 
 /* buttons */
