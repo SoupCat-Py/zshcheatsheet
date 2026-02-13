@@ -284,7 +284,7 @@ export default function CardContainer() {
               <br />
               <CodeSnippet i= "COMMAND" /> may have parameters, but you'll need to use quotations.
               <br />
-              While this method is viable, I recommend opening <CodeSnippet i="./zshrc" /> and adding your alias there (it's the same format).
+              While this method is viable, I recommend opening <CodeSnippet i="~/.zshrc" /> and adding your alias there (it's the same format).
               <br />
               <br />
               Examples:
