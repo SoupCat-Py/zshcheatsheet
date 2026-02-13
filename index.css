@@ -117,10 +117,6 @@
 .g05 {gap: 0.5rem;}
 .g1 {gap: 1rem;}
 .g2 {gap: 2rem;}
-.f1 {flex: 1;}
-.f2 {flex: 2;}
-.f3 {flex: 3;}
-.f4 {flex: 4;}
 
 /* fonts and icons */
 .size1 {font-size: var(--size-1);}
@@ -147,5 +143,3 @@ li::marker {color: var(--text);}
 
 /* buttons */
 .btn {cursor: pointer; width: max-content;}
-.btn.bg-btn-dark:hover {background-color: var(--mid-select);}
-.btn.bg-primary:hover {background-color: var(--primary-select);}

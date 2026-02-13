@@ -1,15 +1,12 @@
-.github::after {
-  content: "GitHub Repo";
-  font-size: var(--size4);
-}
 .header {
   font-weight: bold;
 }
-
-@media (max-width: 950px) {
-  .github::after {
-    content: none;
-  }
+.button {
+  aspect-ratio: 1;
+  place-content: center;
+}
+.button:hover {
+  background: var(--button-dark);
 }
 
 @media (max-width: 770px) {

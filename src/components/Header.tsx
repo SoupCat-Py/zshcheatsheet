@@ -88,27 +88,29 @@ export default function Header() {
   };
 
   return (
-    <div className="d-flex flex-row bg-norm border align-center p1 r1">
-      <div className="d-flex flex-row f1 justify-start">
+    <div className="d-flex flex-row bg-norm border align-center justify-between p1 r1">
+      <div className="d-flex flex-row justify-center">
+        {/* header div */}
         <a
-          className={`btn bg-btn-dark color-text p05 r05 g025 size4 nodeco d-flex flex-row align-center justify-center ${styles.github}`}
+          className={`size1 color-text nodeco m0 p0 ${styles.header}`}
+          href="#"
+        >
+          Common&nbsp;Zshell&nbsp;Commands
+        </a>
+      </div>
+
+      <div className="d-flex flex-row justify-center align-center g-1">
+        <a
+          className={`btn bg-none color-text p05 r05 g025 size4 nodeco d-flex flex-row align-center justify-center ${styles.button}`}
           aria-label="visit the GitHub repository"
           href="https://github.com/soupcat-py/codesheet2"
           target="_blank"
         >
           {github}
         </a>
-      </div>
 
-      <div className="d-flex flex-row f5 justify-center">
-        <a className={`size1 color-text nodeco m0 p0 ${styles.header}`} href="#">
-          Common&nbsp;Zshell&nbsp;Commands
-        </a>
-      </div>
-
-      <div className="d-flex flex-row f1 justify-end">
         <button
-          className={`btn bg-btn-dark color-text p05 r05 g025 d-flex flex-row align-center justify-center ${styles.toggle}`}
+          className={`btn bg-none color-text p05 r05 g025 d-flex flex-row align-center justify-center ${styles.button}`}
           aria-label="toggle dark mode"
           onClick={toggleIcon}
         >
